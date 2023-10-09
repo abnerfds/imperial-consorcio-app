@@ -2,17 +2,16 @@ import Link from 'next/link'
 import React from 'react'
 
 type RouterProps = {
-  route: string
-  title: string
-  classStyle?: string
+    route: string
+    title: string
+    classStyle?: string 
 }
 
 const RouterLink = ({ route, title, classStyle }: RouterProps) => {
   return (
-    <li className={`${classStyle} flex flex-row items-center gap-1`}>
-      <Link className='text-base font-medium'
-        href={route}>
-        {title}
+    <li>
+      <Link href={route} className={`${classStyle} text-white font-bold md:text-base text-lg md:inline block`}>
+          {title}
       </Link>
     </li>
   )
