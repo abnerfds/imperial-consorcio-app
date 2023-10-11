@@ -1,26 +1,25 @@
 import AdvantageCard from "../AdvantageCard/AdvantageCard";
 
-import piggyBank from "../../../assets/images/piggy-bank.png";
-import offer from "../../../assets/images/offer.png";
-import checked from "../../../assets/images/checked.png";
-import unlock from "../../../assets/images/unlock.png";
-import people from "../../../assets/images/people.png";
-import key from "../../../assets/images/key.png";
+import rh from "../../../assets/images/rh.svg";
+import handshake from "../../../assets/images/handshake.svg";
+import checked from "../../../assets/images/check.svg";
+import unlock from "../../../assets/images/unlock.svg";
+import chat from "../../../assets/images/chat.svg";
+import money from "../../../assets/images/money.svg";
 
 const Advantage = () => {
   return (
-    <section className="h-[100vh] mt-40">
+    <section id="advantages" className="h-full flex flex-col justify-center mt-40">
       <section className="text-center mb-20">
         <h2 className="text-[#42B4EE] text-5xl font-bold mb-5">As vantagens de escolher o consórcio Imperial</h2>
         <h3 className="text-[#6b7280] text-2xl font-extralight">Isso e muito mais.</h3>
       </section>
-
       <ul className="flex flex-wrap justify-center gap-8">
         <AdvantageCard
-          title="50% mais barato"
-          description="Nossa taxa é a partir de 9,99%. Metade que outros consórcios."
-          src={piggyBank}
-          alt="Porquinho de guardar dinheiro."
+          title="Descontos na sua parcela"
+          description="Com o MyCoins você indica amigos e ganha descontos na sua parcela."
+          src={unlock}
+          alt="Sinal de check."
         />
         <AdvantageCard
           title="Melhor taxa de contemplação."
@@ -29,28 +28,28 @@ const Advantage = () => {
           alt="Sinal de check."
         />
         <AdvantageCard
+          title="Melhor taxa de contemplação."
+          description="Aqui a contemplação é 2x maior do que a dos concorrentes."
+          src={chat}
+          alt="Sinal de check."
+        />
+        <AdvantageCard
           title="Descontos na sua parcela"
           description="Com o MyCoins você indica amigos e ganha descontos na sua parcela."
-          src={offer}
+          src={handshake}
           alt="Sinal de check."
         />
         <AdvantageCard
           title="50% mais barato"
           description="Nossa taxa é a partir de 9,99%. Metade que outros consórcios."
-          src={key}
+          src={money}
           alt="Porquinho de guardar dinheiro."
         />
         <AdvantageCard
-          title="Melhor taxa de contemplação."
-          description="Aqui a contemplação é 2x maior do que a dos concorrentes."
-          src={people}
-          alt="Sinal de check."
-        />
-        <AdvantageCard
-          title="Descontos na sua parcela"
-          description="Com o MyCoins você indica amigos e ganha descontos na sua parcela."
-          src={unlock}
-          alt="Sinal de check."
+          title="50% mais barato"
+          description="Nossa taxa é a partir de 9,99%. Metade que outros consórcios."
+          src={rh}
+          alt="Porquinho de guardar dinheiro."
         />
       </ul>
     </section>
