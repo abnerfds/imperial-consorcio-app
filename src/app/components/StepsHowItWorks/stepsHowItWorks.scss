@@ -1,0 +1,13 @@
+@media (min-width: 904px) {
+    .indicator:nth-child(-n + 3) {
+        &::before {
+            content: '';
+            width: 150px;
+            height: 3px;
+            background-color: white;
+            position: absolute;
+            top: 0;
+            left: 75%;
+        }
+    }
+}

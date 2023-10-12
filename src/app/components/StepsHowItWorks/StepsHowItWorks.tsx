@@ -1,25 +1,39 @@
+import './stepsHowItWorks.scss';
 import StepCard from "../StepCard/StepCard"
 
 const StepsHowItWorks = () => {
-  return (
-    <section id="howtodo" className="h-[100vh] mt-40 flex flex-col justify-center">
-      <section>
-        
-        <section className="text-center mb-20">
-          <h2 className="text-[#42B4EE] text-5xl font-bold mb-5">Como funciona?</h2>
+    return (
+        <section id="howtodo" className="h-auto mt-20 flex flex-col justify-center items-center">
+
+            <section className="text-center w-[95%] mb-32">
+                <h2 className="text-[#42B4EE] sm:text-5xl text-4xl font-bold mb-5">Entenda o consórcio em 4 passos</h2>
+                <p className='text-[#6b7280] text-2xl'>Veja quais são as etapas de um consórcio desde o início até o fim.</p>
+            </section>
+
+            <section className="flex flex-wrap justify-center w-full gap-12 md:gap-6 lg:gap-12">
+                <StepCard
+                    stepTitle='Escolha do plano'
+                    stepCount='1º passo'
+                    stepDescription='Você fala com a Imperial e ela entende seus objetivos'
+                />
+                <StepCard
+                    stepTitle='Acompanhamento'
+                    stepCount='2º passo'
+                    stepDescription="A Imperial orienta opções de parcelas ideais para você"
+                />
+                <StepCard
+                    stepTitle='Contemplação'
+                    stepCount='3º passo'
+                    stepDescription="Você compra e gerencia tudo pelo celular em 3 minutos"
+                />
+                <StepCard
+                    stepTitle='Compra do bem'
+                    stepCount='4º passo'
+                    stepDescription="Nosso time de humanos cuida sempre de você no que precisar"
+                />
+            </section>
         </section>
-        
-        <section className="flex justify-center">
-          <ul className="steps steps-vertical md:steps-horizontal lg:w-[80%] w-[98%] flex flex-col md:flex-row justify-center items-center">
-            <StepCard stepDescription="Você fala com a Imperial e ela entende seus objetivos" />
-            <StepCard stepDescription="A Imperial orienta opções de parcelas ideais para você" />
-            <StepCard stepDescription="Você compra e gerencia tudo pelo celular em 3 minutos" />
-            <StepCard stepDescription="Nosso time de humanos cuida sempre de você" />
-          </ul>
-        </section>
-      </section>
-    </section>
-  )
+    )
 }
 
 export default StepsHowItWorks

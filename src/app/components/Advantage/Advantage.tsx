@@ -11,8 +11,8 @@ const Advantage = () => {
   return (
     <section id="advantages" className="h-full flex flex-col justify-center mt-40">
       <section className="text-center mb-20">
-        <h2 className="text-[#42B4EE] text-5xl font-bold mb-5">As vantagens de escolher o consórcio Imperial</h2>
-        <h3 className="text-[#6b7280] text-2xl font-extralight">Isso e muito mais.</h3>
+        <h2 className="text-[#42B4EE] sm:text-5xl text-4xl font-bold mb-5">As vantagens de escolher o consórcio Imperial</h2>
+        <h3 className="text-[#6b7280] text-2xl">Isso e muito mais.</h3>
       </section>
       <ul className="flex flex-wrap justify-center gap-8">
         <AdvantageCard

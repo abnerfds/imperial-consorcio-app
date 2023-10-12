@@ -20,7 +20,7 @@ const InitialPage = () => {
           <Image
             src={guyPointing}
             alt='Cara apontando para uma frase à esquerda.'
-            className=""
+            className="min-h-[470px] min-w-[540px]"
           />
         </section>
 

@@ -1,7 +1,6 @@
 import './footer.scss'
 import Link from 'next/link'
 import React from 'react'
-import RouterLink from '../RouterLink'
 
 const Footer = () => {
   return (
@@ -19,7 +18,7 @@ const Footer = () => {
           <Link href='/'>Home</Link>
           <Link href='/#whatis'>O que é</Link>
           <Link href='/#howtodo'>Como funciona</Link>
-          <Link href='/#advantages'>Vantangens</Link>
+          <Link href='/#advantages'>Vantagens</Link>
         </nav>
         <nav>
           <header className="font-bold uppercase text-white">Legal</header>

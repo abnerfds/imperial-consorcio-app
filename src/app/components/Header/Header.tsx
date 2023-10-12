@@ -3,6 +3,8 @@ import './header.scss';
 import React, { useState } from 'react';
 import RouterLink from '../RouterLink';
 import Link from 'next/link';
+import Image from 'next/image';
+import burguerMenu from '../../../assets/images/burguer-menu.svg';
 
 const Header = () => {
   const [isToggle, setIsToggle] = useState(false);
@@ -14,7 +16,7 @@ const Header = () => {
       </Link>
 
       <nav className={`${isToggle && 'header__nav--open-menu'} header__navbar`}>
-        <ul className='flex md:flex-row flex-col items-center lg:gap-8 gap-7'>
+        <ul className='flex flex-col justify-center md:flex-row  items-center lg:gap-8 gap-7 h-full'>
           <RouterLink title='Como funciona' route='/#howtodo' />
           <RouterLink title='Vantagens' route='/#advantages' />
           <RouterLink title='O que é' route='/#whatis' />
@@ -22,7 +24,7 @@ const Header = () => {
         </ul>
       </nav>
 
-      <div className="text-[2.8rem] absolute top-[18%] right-[5%] md:hidden block">
+      <div className="text-[3.5rem] md:hidden flex items-center">
         {isToggle
           ? <i className='bx bx-x' onClick={() => setIsToggle(!isToggle)} />
           : <i className='bx bx-menu-alt-right' onClick={() => setIsToggle(!isToggle)} />}
