@@ -27,6 +27,7 @@ const Header = () => {
           ? <i className='bx bx-x' onClick={() => setIsToggle(!isToggle)} />
           : <i className='bx bx-menu-alt-right' onClick={() => setIsToggle(!isToggle)} />}
       </div>
+
     </header>
   )
 }

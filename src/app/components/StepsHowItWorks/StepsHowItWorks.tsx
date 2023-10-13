@@ -1,9 +1,9 @@
 import './stepsHowItWorks.scss';
-import StepCard from "../StepCard/StepCard"
+import StepCard from "./StepCard/StepCard"
 
 const StepsHowItWorks = () => {
     return (
-        <section id="howtodo" className="h-auto mt-20 flex flex-col justify-center items-center">
+        <section id="howtodo" className="h-auto mt-40 w-full flex flex-col justify-center items-center">
 
             <section className="text-center w-[95%] mb-32">
                 <h2 className="text-[#42B4EE] sm:text-5xl text-4xl font-bold mb-5">Entenda o consórcio em 4 passos</h2>
