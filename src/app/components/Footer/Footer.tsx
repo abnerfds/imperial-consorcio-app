@@ -22,20 +22,19 @@ const PHeader = ({children}: PropsWithChildren) => {
 
 const Footer = () => {
   return (
-    <footer className=''>
-      <footer className="footer home__bg-purple text-lg md:text-base text-white p-10 mt-44 flex flex-col md:flex-row md:justify-around">
+    <footer className='home__bg-purple'>
+      <footer className="footer home__bg-purple h-[120vh] md:h-auto text-lg md:text-base text-white p-10 mt-44 flex flex-col md:flex-row justify-around md:gap-0">
+        <nav>
+          <PHeader>Mais Informações</PHeader>
+          <PLink href='l'>De segunda a sexta, das 9h às 18h,<br/> exceto feriados.</PLink>
+          <PLink href='l'>Rua Lourenço Marques, 315 - <br/>Vila Olímpia - São Paulo - SP.</PLink>
+        </nav>
         <nav>
           <PHeader>Empresa</PHeader>
           <PLink href='/'>Home</PLink>
           <PLink href='/#whatis'>O que é</PLink>
           <PLink href='/#howtodo'>Como funciona</PLink>
           <PLink href='/#advantages'>Vantagens</PLink>
-        </nav>
-        <nav>
-          <PHeader>Legal</PHeader>
-          <PLink href='l'>Terms of use</PLink>
-          <PLink href='l'>Privacy policy</PLink>
-          <PLink href='l'>Cookie policy</PLink>
         </nav>
         <nav id='contact'>
           <PHeader>Fale Conosco</PHeader>
@@ -44,9 +43,10 @@ const Footer = () => {
           <PLink href='/#advantages'>Telefone: (11) 1111-1111</PLink>
         </nav>
       </footer>
-      <footer className="footer px-10 home__bg-purple text-lg md:text-base text-white flex flex-col-reverse justify-end items-center md:flex-row md:justify-center gap-6 md:gap-28 py-8">
-        <aside>
-          <p className='text-center'><span className='font-bold'>Imperial Consórcios Ltd</span> <br />Atuando no mercado desde 1992</p>
+      <footer className="footer px-10 home__bg-purple h-[30vh] md:h-auto text-lg md:text-base text-white flex flex-col-reverse justify-center items-center md:flex-row md:justify-center gap-6 md:gap-28 py-8">
+        <aside className='text-center flex flex-col items-center'>
+          <p className='font-bold'>Imperial Consórcios LOGO</p>
+          {/* <p>Rua Lourenço Marques, 315 - Vila Olímpia - São Paulo - SP</p> */}
         </aside>
         <nav className='flex gap-5'>
           <a href="https://www.instagram.com/imperialconsorcio/?hl=en">
