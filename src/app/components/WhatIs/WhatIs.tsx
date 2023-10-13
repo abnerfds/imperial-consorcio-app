@@ -2,7 +2,7 @@ import './whatIs.scss'
 
 const WhatIs = () => {
   return (
-    <section id='whatis' className="whatis-container--bg h-screen mt-40 flex justify-center items-center">
+    <section id='whatis' className="whatis-container--bg sm:h-screen h-[120vh] mt-40 flex justify-center items-center">
       <section className="flex flex-col lg:flex-row justify-around items-center md:w-[90%] w-[95%] text-white">
 
         <h2 className="text-left sm:text-5xl text-4xl font-bold lg:mb-0 mb-12">

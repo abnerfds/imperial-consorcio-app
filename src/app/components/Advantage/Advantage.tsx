@@ -1,4 +1,4 @@
-import AdvantageCard from "../AdvantageCard/AdvantageCard";
+import AdvantageCard from "./AdvantageCard/AdvantageCard";
 
 import rh from "../../../assets/images/rh.svg";
 import handshake from "../../../assets/images/handshake.svg";
@@ -22,13 +22,13 @@ const Advantage = () => {
           alt="Sinal de check."
         />
         <AdvantageCard
-          title="Melhor taxa de contemplação."
+          title="Melhores taxas."
           description="Aqui a contemplação é 2x maior do que a dos concorrentes."
           src={checked}
           alt="Sinal de check."
         />
         <AdvantageCard
-          title="Melhor taxa de contemplação."
+          title="Melhor taxa de saúde."
           description="Aqui a contemplação é 2x maior do que a dos concorrentes."
           src={chat}
           alt="Sinal de check."

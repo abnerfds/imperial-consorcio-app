@@ -19,7 +19,7 @@ const AdvantageCard = ({ title, description, src, alt }: AdvantageProps) => {
         />
       </section>
       <section className='w-[80%] md:w-auto'>
-        <h4 className="text-[#42B4EE] text-xl font-black mb-2">{title}</h4>
+        <h4 className="text-[#42B4EE] text-xl font-semibold mb-2">{title}</h4>
         <p className='text-[#6b7280]'>{description}</p>
       </section>
     </li>
