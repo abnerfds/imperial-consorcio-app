@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <section>
       <InitialPage />
-      <WhatIs />
       <Advantage />
+      <WhatIs />
       <StepsHowItWorks />
     </section>
   )

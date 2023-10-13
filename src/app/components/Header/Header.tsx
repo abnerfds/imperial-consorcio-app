@@ -3,8 +3,6 @@ import './header.scss';
 import React, { useState } from 'react';
 import RouterLink from '../RouterLink';
 import Link from 'next/link';
-import Image from 'next/image';
-import burguerMenu from '../../../assets/images/burguer-menu.svg';
 
 const Header = () => {
   const [isToggle, setIsToggle] = useState(false);

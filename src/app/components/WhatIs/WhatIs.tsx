@@ -25,7 +25,6 @@ const WhatIs = () => {
             todos realizem o sonho de um carro novo na garagem.
           </p>
         </section>
-        
       </section>
     </section>
   )

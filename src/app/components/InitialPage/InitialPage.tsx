@@ -4,9 +4,9 @@ import guyPointing from "../../../assets/images/guy-pointing.png";
 
 const InitialPage = () => {
   return (
-    <section className="home__bg-purple h-[100vh] flex justify-center items-center">
+    <section className="home__bg-purple h-[100vh] flex justify-center items-center overflow-hidden">
         
-        <section className="lg:w-[32%] md:w-[35%] w-[90%] text-white">
+        <section className="z-10 lg:w-[32%] md:w-[35%] w-[90%] text-white">
           <p className="lg:text-[3.5rem] text-[3rem] leading-tight mb-7">
             Realize seus <span className="font-semibold">planos</span> com a <span className="font-semibold">Imperial</span>!
           </p>
@@ -16,11 +16,12 @@ const InitialPage = () => {
           </button>
         </section>
 
+        {/* <section className="xl:w-[50%] w-[60%] md:block hidden"> */}
         <section className="xl:w-[50%] w-[60%] md:block hidden">
           <Image
             src={guyPointing}
             alt='Cara apontando para uma frase à esquerda.'
-            className="min-h-[470px] min-w-[540px]"
+            className="min-h-[20rem] min-w-[24rem]"
           />
         </section>
 
