@@ -23,7 +23,7 @@ const PHeader = ({children}: PropsWithChildren) => {
 const Footer = () => {
   return (
     <footer className='home__bg-purple'>
-      <footer className="footer home__bg-purple h-[120vh] md:h-auto text-lg md:text-base text-white p-10 mt-44 flex flex-col md:flex-row justify-around md:gap-0">
+      <footer className="footer home__bg-purple h-[100vh] md:h-auto text-lg md:text-base text-white p-10 mt-44 flex flex-col md:flex-row justify-around md:gap-0">
         <nav>
           <PHeader>Mais Informações</PHeader>
           <PLink href='l'>De segunda a sexta, das 9h às 18h,<br/> exceto feriados.</PLink>
@@ -43,7 +43,7 @@ const Footer = () => {
           <PLink href='/#advantages'>Telefone: (11) 1111-1111</PLink>
         </nav>
       </footer>
-      <footer className="footer px-10 home__bg-purple h-[30vh] md:h-auto text-lg md:text-base text-white flex flex-col-reverse justify-center items-center md:flex-row md:justify-center gap-6 md:gap-28 py-8">
+      <footer className="footer px-10 home__bg-purple h-[25vh] md:h-auto text-lg md:text-base text-white flex flex-col-reverse justify-center items-center md:flex-row md:justify-center gap-6 md:gap-28 py-8">
         <aside className='text-center flex flex-col items-center'>
           <p className='font-bold'>Imperial Consórcios LOGO</p>
           {/* <p>Rua Lourenço Marques, 315 - Vila Olímpia - São Paulo - SP</p> */}
