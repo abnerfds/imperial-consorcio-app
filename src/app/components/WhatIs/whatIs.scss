@@ -1,8 +1,15 @@
-.whatis-container--bg {
+.whatis-container--bg-image {
     // height: 120vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../../assets/images/young-man-choosing-car-car-showroom.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+}
+
+
+
+.whatis-container--bg {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
