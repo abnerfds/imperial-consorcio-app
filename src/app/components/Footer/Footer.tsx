@@ -23,7 +23,7 @@ const PHeader = ({children}: PropsWithChildren) => {
 const Footer = () => {
   return (
     <footer className='home__bg-purple'>
-      <footer className="footer home__bg-purple h-[80vh] md:h-auto text-lg md:text-base text-white p-10 mt-44 flex flex-col md:flex-row justify-around md:gap-0">
+      <footer className="footer home__bg-purple min-h-screen md:min-h-full text-lg md:text-base text-white py-20 md:py-10 px-10 flex flex-col md:flex-row justify-around md:gap-0">
         <nav>
           <PHeader>Mais Informações</PHeader>
           <PLink href='l'>De segunda a sexta, das 9h às 18h,<br/> exceto feriados.</PLink>
@@ -33,8 +33,8 @@ const Footer = () => {
           <PHeader>Empresa</PHeader>
           <PLink href='/'>Home</PLink>
           <PLink href='/#whatis'>O que é</PLink>
-          <PLink href='/#howtodo'>Como funciona</PLink>
           <PLink href='/#advantages'>Vantagens</PLink>
+          <PLink href='/#howtodo'>Como funciona</PLink>
         </nav>
         <nav id='contact'>
           <PHeader>Fale Conosco</PHeader>
