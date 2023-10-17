@@ -44,9 +44,8 @@ const Footer = () => {
         </nav>
       </footer>
       <footer className="footer px-10 home__bg-purple h-[25vh] md:h-auto text-lg md:text-base text-white flex flex-col-reverse justify-center items-center md:flex-row md:justify-center gap-6 md:gap-28 py-8">
-        <aside className='text-center flex flex-col items-center'>
-          <p className='font-bold'>Imperial Consórcios LOGO</p>
-          {/* <p>Rua Lourenço Marques, 315 - Vila Olímpia - São Paulo - SP</p> */}
+        <aside className='flex flex-col items-center justify-end'>
+          <p className='font-bold text-center'>Imperial Consórcios LOGO</p>
         </aside>
         <nav className='flex gap-5'>
           <a href="https://www.instagram.com/imperialconsorcio/?hl=en">

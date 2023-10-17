@@ -1,6 +1,7 @@
 import Advantage from "./components/Advantage/Advantage";
 import InitialPage from "./components/InitialPage/InitialPage";
 import StepsHowItWorks from "./components/StepsHowItWorks/StepsHowItWorks";
+import Testimony from "./components/Testimony/Testimony";
 import WhatIs from "./components/WhatIs/WhatIs";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Advantage />
       <WhatIs />
       <StepsHowItWorks />
+      <Testimony />
     </section>
   )
 }
