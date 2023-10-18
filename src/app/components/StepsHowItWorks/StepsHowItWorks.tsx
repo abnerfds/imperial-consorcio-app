@@ -21,12 +21,12 @@ const StepsHowItWorks = () => {
   return (
     <section id="howtodo" className="min-h-screen py-56 w-full flex flex-col justify-center items-center">
 
-      <section className="text-center w-[95%] mb-10 md:mb-32">
+      <section className="text-center w-[95%] mb-10 lg:mb-32">
         <h2 className="text-[#42B4EE] sm:text-5xl text-4xl font-bold mb-5">Entenda o consórcio em 4 passos</h2>
         <p className='text-[#6b7280] text-2xl'>Veja quais são as etapas de um consórcio desde o início até o fim.</p>
       </section>
 
-      <section className={`${isSmallScreen ? 'w-[95%] h-[50vh] text-center carousel rounded-box flex items-center' : 'flex flex-wrap justify-center w-full gap-12 md:gap-6 lg:gap-12'}`}>
+      <section className={`${isSmallScreen ? 'w-[95%] h-[40vh] text-center carousel rounded-box flex items-center' : 'flex flex-wrap justify-center w-full gap-12 md:gap-6 lg:gap-12'}`}>
         <StepCard
           classStyle='indicator-p'
           stepTitle='Escolha do plano'
