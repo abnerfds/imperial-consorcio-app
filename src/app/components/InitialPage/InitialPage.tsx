@@ -8,7 +8,8 @@ const InitialPage = () => {
             Realize seus <span className="font-semibold">planos</span> com a <span className="font-semibold">Imperial</span>!
           </p>
           <p className="text-lg">Tem dúvidas sobre o consórcio?</p>
-          <button className="bg-[#42B4EE] font-semibold md:text-sm lg:py-3 lg:px-7 py-3 px-3 rounded-[5px] uppercase">
+          {/* bg-[#42B4EE] bg-purple-clear */}
+          <button className="bg-[#7F3CE0] btn btn-primary glass font-semibold md:text-sm lg:py-3 lg:px-7 py-3 px-3 rounded-[5px] uppercase">
             Saiba mais
           </button>
         </section>

@@ -23,7 +23,7 @@ const PHeader = ({children}: PropsWithChildren) => {
 const Footer = () => {
   return (
     <footer className='bg-purple-clear'>
-      <footer className="footer bg-purple-clear min-h-screen md:min-h-full text-lg md:text-base text-white py-20 md:py-10 px-10 flex flex-col md:flex-row justify-around md:gap-0">
+      <footer className="footer bg-purple-clear min-h-screen md:min-h-full text-lg md:text-base text-white py-20 md:py-10 pl-10 md:px-10 flex flex-col md:flex-row justify-around md:gap-0">
         <nav>
           <PHeader>Mais Informações</PHeader>
           <PLink href='l'>De segunda a sexta, das 9h às 18h,<br/> exceto feriados.</PLink>

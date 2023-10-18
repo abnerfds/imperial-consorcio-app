@@ -20,13 +20,14 @@ body {
   background-color: #FFFFFF;
 }
 
-/* h2 {
+.h2 {
   font-size: 72px;
   background-color: #4158D0;
-  background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background: linear-gradient(251deg, #461096 0.57%, #7F3CE0 99.97%);
+  /* background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-} */
+}
 
 
 .bg-purple-p {
