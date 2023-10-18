@@ -4,22 +4,22 @@ import CardVideo from './CardVideo/CardVideo'
 import React, { useEffect, useState } from 'react'
 
 const Testimony = () => {
-    const [isSmallScreen, setIsSmallScreen] = useState(false)
-    const checkScreenSize = () => {
-        setIsSmallScreen(window.innerWidth < 900);
-    };
+    const [isSmallScreen, setIsSmallScreen] = useState(true)
+    // const checkScreenSize = () => {
+    //     setIsSmallScreen(window.innerWidth < 900);
+    // };
 
-    useEffect(() => {
-        checkScreenSize();
-        window.addEventListener('resize', checkScreenSize);
-        return () => {
-            window.removeEventListener('resize', checkScreenSize);
-        };
-    }, []);
+    // useEffect(() => {
+    //     checkScreenSize();
+    //     window.addEventListener('resize', checkScreenSize);
+    //     return () => {
+    //         window.removeEventListener('resize', checkScreenSize);
+    //     };
+    // }, []);
 
     return (
-        <section className="min-h-screen flex flex-col items-center pb-52">
-            <Subtitle>Confira os depoimentos de quem já realizou seus sonhos</Subtitle>
+        <section className="min-h-screen flex flex-col justify-center items-center pb-52">
+            <Subtitle classStyle=''>Confira os depoimentos de quem já realizou seus sonhos</Subtitle>
             
             <section
                 className={`

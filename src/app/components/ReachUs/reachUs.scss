@@ -1,0 +1,10 @@
+.reachus__hr-vertical::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 1px;
+    height: 150px;
+    top: 40%;
+    left: 41.5%;
+    display: block;
+}

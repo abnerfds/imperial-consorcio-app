@@ -2,12 +2,12 @@ import './whatIs.scss'
 
 const WhatIs = () => {
   return (
-    <section id='whatis' className="whatis-container--bg min-h-[70vh] lg:min-h-screen flex justify-center items-center py-20">
+    <section id='whatis' className="bg-purple-p min-h-[70vh] lg:min-h-screen flex justify-center items-center py-20">
       <section className="flex flex-col lg:flex-row justify-around items-center md:w-[90%] w-[95%] text-white">
 
-        <h2 className="text-left sm:text-5xl text-4xl font-bold lg:mb-0 mb-12">
+        <h3 className="text-left sm:text-5xl text-4xl font-bold lg:mb-0 mb-12">
           O que é consórcio?
-        </h2>
+        </h3>
         
         <section className="w-full text-lg md:text-2xl lg:text-xl leading-7 flex flex-col justify-between gap-10">
           <p className="border-l-4 border-white border-solid pl-3">

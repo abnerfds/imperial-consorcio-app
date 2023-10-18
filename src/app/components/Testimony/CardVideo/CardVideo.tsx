@@ -6,7 +6,7 @@ const CardVideo = ({ nameWitness, src, isSmallScreen }: { nameWitness: string, s
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <section className={`${isSmallScreen && 'carousel-item flex flex-col'} relative rounded-lg card-video__container p-4`}>
+    <section className={`${isSmallScreen && 'carousel-item flex flex-col'} bg-white relative rounded-lg card-video__container p-4`}>
         <iframe className='w-[23rem] h-[13rem] md:w-[20rem] md:h-[11.5rem] rounded-box mb-3' src={src} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         <section className='flex justify-between items-center'>
           <h3 className='text-gray-800 font-medium pl-2'>{nameWitness} | Cliente</h3>

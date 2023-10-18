@@ -8,7 +8,7 @@ type LinkProps = {
   classStyle?: string
 }
 
-const PLink = ({children, href, classStyle}: PropsWithChildren<LinkProps>) => {
+export const PLink = ({children, href, classStyle}: PropsWithChildren<LinkProps>) => {
   return (
     <Link href={href} className={`${classStyle} text-slate-300`}>{children}</Link>
   )
@@ -22,8 +22,8 @@ const PHeader = ({children}: PropsWithChildren) => {
 
 const Footer = () => {
   return (
-    <footer className='home__bg-purple'>
-      <footer className="footer home__bg-purple min-h-screen md:min-h-full text-lg md:text-base text-white py-20 md:py-10 px-10 flex flex-col md:flex-row justify-around md:gap-0">
+    <footer className='bg-purple-clear'>
+      <footer className="footer bg-purple-clear min-h-screen md:min-h-full text-lg md:text-base text-white py-20 md:py-10 px-10 flex flex-col md:flex-row justify-around md:gap-0">
         <nav>
           <PHeader>Mais Informações</PHeader>
           <PLink href='l'>De segunda a sexta, das 9h às 18h,<br/> exceto feriados.</PLink>
@@ -43,7 +43,7 @@ const Footer = () => {
           <PLink href='/#advantages'>Telefone: (11) 1111-1111</PLink>
         </nav>
       </footer>
-      <footer className="footer px-10 home__bg-purple h-[25vh] md:h-auto text-lg md:text-base text-white flex flex-col-reverse justify-center items-center md:flex-row md:justify-center gap-6 md:gap-28 py-8">
+      <footer className="footer px-10 bg-purple-clear h-[25vh] md:h-auto text-lg md:text-base text-white flex flex-col-reverse justify-center items-center md:flex-row md:justify-center gap-6 md:gap-28 py-8">
         <aside className='flex flex-col items-center justify-end'>
           <p className='font-bold text-center'>Imperial Consórcios LOGO</p>
         </aside>
