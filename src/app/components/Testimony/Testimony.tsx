@@ -5,20 +5,20 @@ import React, { useEffect, useState } from 'react'
 
 const Testimony = () => {
     const [isSmallScreen, setIsSmallScreen] = useState(true)
-    // const checkScreenSize = () => {
-    //     setIsSmallScreen(window.innerWidth < 900);
-    // };
+    const checkScreenSize = () => {
+        setIsSmallScreen(window.innerWidth < 900);
+    };
 
-    // useEffect(() => {
-    //     checkScreenSize();
-    //     window.addEventListener('resize', checkScreenSize);
-    //     return () => {
-    //         window.removeEventListener('resize', checkScreenSize);
-    //     };
-    // }, []);
+    useEffect(() => {
+        checkScreenSize();
+        window.addEventListener('resize', checkScreenSize);
+        return () => {
+            window.removeEventListener('resize', checkScreenSize);
+        };
+    }, []);
 
     return (
-        <section className="min-h-screen flex flex-col justify-center items-center pb-52">
+        <section className="min-h-min flex flex-col justify-center items-center pb-52">
             <Subtitle classStyle=''>Confira os depoimentos de quem já realizou seus sonhos</Subtitle>
             
             <section
