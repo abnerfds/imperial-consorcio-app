@@ -9,8 +9,8 @@ type AdvantageProps = {
 
 const AdvantageCard = ({ title, description, src, alt }: AdvantageProps) => {
   return (
-    <li className="flex flex-row md:flex-col justify-center md:gap-0 gap-4 items-center md:items-start w-[90%] md:w-[22rem] md:h-[15rem] bg-[#F5F6FA] rounded-xl p-4 md:px-7 md:py-4">
-      <section className='w-[20%] md:w-auto flex justify-center'>
+    <li className="flex flex-row md:flex-col justify-start md:gap-0 gap-4 items-center md:items-center w-[90%] md:w-[22rem] md:h-[20rem] bg-[#F5F6FA] rounded-xl p-4 md:px-3 md:py-4">
+      <section className='w-[20%] h-[35%] md:w-auto flex justify-start'>
         <Image
           src={src}
           alt={alt}
@@ -19,8 +19,8 @@ const AdvantageCard = ({ title, description, src, alt }: AdvantageProps) => {
         />
       </section>
       <section className='w-[80%] md:w-auto'>
-        <h4 className="text-[#42B4EE] text-xl font-semibold mb-2">{title}</h4>
-        <p className='text-[#6b7280]'>{description}</p>
+        <h4 className="text-[#42B4EE] text-center text-xl font-semibold mb-6">{title}</h4>
+        <p className='text-[#6b7280] text-center'>{description}</p>
       </section>
     </li>
   )

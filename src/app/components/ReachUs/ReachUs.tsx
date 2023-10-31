@@ -4,7 +4,7 @@ import OtherInfo from "./OtherInfo/OtherInfo"
 
 const ReachUs = () => {
   return (
-    <section className='bg-teste-p w-full py-20 flex flex-col justify-around items-center text-white mb-52'>
+    <section id='reachus' className='bg-teste-p w-full py-20 flex flex-col justify-around items-center text-white mb-52'>
      
       <section className="w-[95%] relative">
         <h3 className={`text-white text-center sm:text-5xl text-4xl font-bold mb-8 lg:mb-16`}>
