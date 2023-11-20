@@ -12,8 +12,8 @@ const StepCard = ({ stepDescription, stepTitle, stepCount, isSmallScreen, classS
         </span>
       </section>
       <section className='flex flex-col'>
-        <h4 className='text-[#42B4EE] text-2xl lg:text-xl mb-4'>{stepTitle}</h4>
-        <p className='text-xl lg:text-[1.1rem]'>{stepDescription}</p>
+        <h4 className='text-[#42B4EE] text-2xl font-light lg:text-xl mb-4'>{stepTitle}</h4>
+        <p className='text-xl font-light lg:text-[1.1rem]'>{stepDescription}</p>
       </section>
     </section>
   )

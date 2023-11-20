@@ -29,7 +29,7 @@ const ContactUsForm = () => {
           type="hidden"
           name="_next"
           value="https://imperial-consorcio-app.vercel.app/" />
-        <button type='submit' className='btn bg-btn-reverse max-w-md lg:max-w-sm border-none text-lg text-white'>
+        <button type='submit' className='btn-p  max-w-md lg:max-w-sm border-none text-lg'>
           Enviar
         </button>
     </form>

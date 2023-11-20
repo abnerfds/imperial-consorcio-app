@@ -18,7 +18,7 @@ const Testimony = () => {
     }, []);
 
     return (
-        <section className="min-h-min flex flex-col justify-center items-center pb-52">
+        <section className="advantage__bg-white min-h-min flex flex-col justify-center items-center py-52">
             <Subtitle classStyle=''>Confira os depoimentos de quem já realizou seus sonhos</Subtitle>
             
             <section

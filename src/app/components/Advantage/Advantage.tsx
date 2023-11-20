@@ -1,59 +1,61 @@
 import AdvantageCard from "./AdvantageCard/AdvantageCard";
+import './advantage.scss'
 
 import rh from "../../../assets/images/rh.svg";
 import handshake from "../../../assets/images/handshake.svg";
-import chat from "../../../assets/images/chat.svg";
+import chat from "../../../assets/images/speech-bubble-5.svg";
 import checked from "../../../assets/images/check.svg";
 import unlock from "../../../assets/images/unlock.svg";
 import money from "../../../assets/images/money.svg";
 
 const Advantage = () => {
   return (
-    <section id="advantages" className="min-h-screen flex flex-col justify-center items-center py-52">
+    <section id="advantages" className="advantage__bg-white min-h-screen flex flex-col justify-center items-center py-52">
       <section className="text-center mb-20">
         <h2 className="text-[#42B4EE] sm:text-5xl text-4xl font-bold mb-5">
           As vantagens de ter uma consultoria Imperial
         </h2>
-        <h3 className="text-[#6b7280] text-2xl">Isso e muito mais.</h3>
+        <h3 className="text-[#6b7280] text-2xl font-light">Isso e muito mais.</h3>
       </section>
-      <ul className="flex flex-wrap justify-center gap-8">
+      <ul className="flex flex-wrap justify-center gap-4">
         <AdvantageCard
-          title="Melhor taxa administrativa"
+          title="Melhor Taxa Administrativa"
           description="Nossa consultoria encontra a melhor opção para seu investimento ter a maior lucratividade!"
           src={checked}
           alt="Sinal de check."
         />
         <AdvantageCard
-          title="Descontos nas parcelas"
+          title="Descontos nas Parcelas"
           description="Temos parcelas reduzidas pela metade do preço até a contemplação.
           Não comprometendo o seu orçamento até estar com o seu sonho realizado!"
-          src={unlock}
+          src={money}
           alt="Sinal de check."
         />
         <AdvantageCard
-          title="Consultores especializados"
+          title="Consultores Especializados"
           description="Temos uma equipes de vendedores treinadas para encontrar o melhor negócio pra você, sua família ou empresa."
-          src={money}
+          src={unlock}
           alt="Porquinho de guardar dinheiro."
         />
-        {/* <AdvantageCard
-          title="Melhor taxa de saúde."
-          description="Aqui a contemplação é 2x maior do que a dos concorrentes."
+        <AdvantageCard
+          title="Flexibilidade de Uso"
+          description="Pode ser usado para adquirir diversos bens, como imóveis, automóveis, motocicletas, eletrodomésticos, eletrônicos, e mais."
           src={chat}
           alt="Sinal de check."
         />
         <AdvantageCard
-          title="Descontos na sua parcela"
-          description="Com o MyCoins você indica amigos e ganha descontos na sua parcela."
+          title="Planos com Prazos Flexíveis"
+          description="Nossos planos têm prazos definidos para quitação, variando conforme o tipo e valor do consórcio."
           src={handshake}
           alt="Sinal de check."
         />
         <AdvantageCard
-          title="50% mais barato"
-          description="Nossa taxa é a partir de 9,99%. Metade que outros consórcios."
+          title="Consórcio Sem Juros"
+          description="Ao contrário de financiamentos, o consórcio não tem juros, tornando-o uma opção 
+          financeiramente mais vantajosa com apenas a taxa administrativa a ser considerada."
           src={rh}
           alt="Porquinho de guardar dinheiro."
-        /> */}
+        />
       </ul>
     </section>
   )

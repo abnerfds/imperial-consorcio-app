@@ -67,7 +67,7 @@ const Footer = () => {
           </Link>
         </nav>
         <p className='flex text-base'>
-          Feito com 💙 por 
+          Feito com 💙 por
           <Link href='https://www.linkedin.com/in/abner-sousa/' target='_blank' className='hover:underline'>
             Abner Sousa
           </Link>
