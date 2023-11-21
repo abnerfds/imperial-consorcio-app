@@ -4,7 +4,7 @@ const ContactUsForm = () => {
   return (
     <form
       method='POST'
-      action="https://formsubmit.co/abnerferreira84@gmail.com"
+      action="https://formsubmit.co/71b184f38ac16435b2f32633df3a9f4e"
       className='text-black rounded-lg flex flex-col gap-5 pb-24 md:pb-0'
     >
         <h1 className='text-white text-2xl text-center max-w-md lg:max-w-sm font-bold mb-4'>
