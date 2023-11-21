@@ -1,54 +1,57 @@
-'use client'
-import Subtitle from '../Subtitle/Subtitle'
-import CardVideo from './CardVideo/CardVideo'
-import React, { useEffect, useState } from 'react'
+'use client';
+import Subtitle from '../Subtitle/Subtitle';
+import React, { useEffect, useState } from 'react';
+import { InstagramEmbed } from 'react-social-media-embed';
 
 const Testimony = () => {
-    const [isSmallScreen, setIsSmallScreen] = useState(true)
-    const checkScreenSize = () => {
-        setIsSmallScreen(window.innerWidth < 900);
+  const [isSmallScreen, setIsSmallScreen] = useState(true);
+  const checkScreenSize = () => {
+    setIsSmallScreen(window.innerWidth < 900);
+  };
+
+  useEffect(() => {
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+    return () => {
+      window.removeEventListener('resize', checkScreenSize);
     };
+  }, []);
 
-    useEffect(() => {
-        checkScreenSize();
-        window.addEventListener('resize', checkScreenSize);
-        return () => {
-            window.removeEventListener('resize', checkScreenSize);
-        };
-    }, []);
+  return (
+    <section className="min-h-min flex flex-col justify-center items-center pb-52">
+      <Subtitle classStyle="">
+        Confira os depoimentos de quem já realizou seus sonhos
+      </Subtitle>
 
-    return (
-        <section className="min-h-min flex flex-col justify-center items-center pb-52">
-            <Subtitle classStyle=''>Confira os depoimentos de quem já realizou seus sonhos</Subtitle>
-            
-            <section
-                className={`
-                    ${isSmallScreen 
-                        ? 'carousel carousel-center max-w-full p-4 space-x-4' 
-                        : 'flex flex-wrap justify-center'} gap-6 md:gap-8 pt-14` }>
-                <CardVideo
-                    nameWitness='Carlos'
-                    src='https://www.youtube.com/embed/ceCMxv72Uqw?si=LS9ve8JoElgmpVrG' 
-                    isSmallScreen={isSmallScreen} 
-                />
-                <CardVideo
-                    nameWitness='Marcela'
-                    src='https://www.youtube.com/embed/S81jY3-I0oc?si=wR1vpQ8POScoeLne' 
-                    isSmallScreen={isSmallScreen} 
-                />
-                <CardVideo
-                    nameWitness='João'
-                    src='https://www.youtube.com/embed/bfTv6A1Wn4k?si=1UypDvbE7DZ0fare' 
-                    isSmallScreen={isSmallScreen} 
-                />
-                <CardVideo
-                    nameWitness='João'
-                    src='https://www.youtube.com/embed/hJ7Rg1821Q0?si=HaximHH2mOGEqy8Y' 
-                    isSmallScreen={isSmallScreen} 
-                />
-            </section>
-        </section>
-    )
-}
+      <section
+        className={`
+                    ${
+                      isSmallScreen
+                        ? 'carousel carousel-center max-w-full p-4 space-x-4'
+                        : 'flex flex-wrap justify-center'
+                    } gap-6 md:gap-8 pt-14`}
+      >
+        <div>
+          <InstagramEmbed
+            url="https://www.instagram.com/reel/CxVmHXjrRM9/?utm_source=ig_embed&amp;utm_campaign=loading"
+            width={328}
+          />
+        </div>
+        <div>
+          <InstagramEmbed
+            url="https://www.instagram.com/reel/CklGuhiDXzg/?utm_source=ig_embed&amp;utm_campaign=loading"
+            width={328}
+          />
+        </div>
+        <div>
+          <InstagramEmbed
+            url="https://www.instagram.com/reel/CjQ5IV7Jg0V/?utm_source=ig_embed&amp;utm_campaign=loading"
+            width={328}
+          />
+        </div>
+      </section>
+    </section>
+  );
+};
 
-export default Testimony
+export default Testimony;
