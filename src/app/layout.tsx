@@ -17,6 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <title>Imperial Consórcio</title>
       </head>
       <body>        
