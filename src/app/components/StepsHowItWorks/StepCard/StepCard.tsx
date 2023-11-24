@@ -1,6 +1,5 @@
 'use client'
 import { IStepCardProps } from '@/app/types/Props'
-import './stepCard.scss'
 
 const StepCard = ({ stepDescription, stepTitle, stepCount, isSmallScreen, classStyle }: IStepCardProps) => {
 

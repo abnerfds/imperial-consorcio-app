@@ -1,12 +1,14 @@
 import AdvantageCard from "./AdvantageCard/AdvantageCard";
+
+import rh from "@/assets/icons/rh.svg";
+import handshake from "@/assets/icons/handshake.svg";
+import chat from "@/assets/icons/speech-bubble-5.svg";
+import checked from "@/assets/icons/check.svg";
+import unlock from "@/assets/icons/unlock.svg";
+import money from "@/assets/icons/money.svg";
+
 import './advantage.scss'
 
-import rh from "../../../assets/images/rh.svg";
-import handshake from "../../../assets/images/handshake.svg";
-import chat from "../../../assets/images/speech-bubble-5.svg";
-import checked from "../../../assets/images/check.svg";
-import unlock from "../../../assets/images/unlock.svg";
-import money from "../../../assets/images/money.svg";
 
 const Advantage = () => {
   return (

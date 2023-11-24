@@ -1,10 +1,10 @@
 'use client'
 import './header.scss';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import RouterLink from '../RouterLink';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '@/assets/images/logocir.png';
+import logo from '@/assets/images/logocir.avif';
 
 const Header = () => {
   const [isToggle, setIsToggle] = useState(false);

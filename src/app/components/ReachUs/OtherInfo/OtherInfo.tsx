@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import React from 'react'
 
 const OtherInfo = () => {
   return (
@@ -20,22 +19,8 @@ const OtherInfo = () => {
             <svg xmlns="http://www.w3.org/2000/svg" fill='white' width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg>
             Facebook
           </Link>
-          {/* <Link href='mailto:admimperialpv@gmail.com' className="btn-p">
-            <svg width="24" height="24" fill="white" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd"><path d="M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z" /></svg>
-            Email
-          </Link> */}
         </section>
       </section>
-
-      {/* <section className='text-center lg:text-left'>
-        <h4 className="text-white text-2xl font-bold mb-2">Horário de Funcionamento</h4>
-        <p className='font-medium'>Segunda a Sexta de 08:00 às 18:00, exceto feriados.</p>
-      </section>
-
-      <section className='text-center lg:text-left'>
-        <h4 className="text-white text-2xl font-bold mb-2">Endereço</h4>
-        <p className='font-medium'>Rua Sátiro Dias, N° 387 - Montese - Fortaleza - CE.</p>
-      </section> */}
 
       <section className='text-center lg:text-left leading-9'>
         <h4 className="text-white text-2xl font-bold mb-2">Serviços por WhatsApp</h4>

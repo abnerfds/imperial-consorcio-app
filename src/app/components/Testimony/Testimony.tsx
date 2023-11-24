@@ -1,6 +1,6 @@
 'use client';
 import Subtitle from '../Subtitle/Subtitle';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { InstagramEmbed } from 'react-social-media-embed';
 
 const Testimony = () => {

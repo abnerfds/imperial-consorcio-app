@@ -15,12 +15,12 @@ const AdvantageCard = ({ title, description, src, alt }: AdvantageProps) => {
           src={src}
           alt={alt}
           width={45}
-          className="mb-0 md:mb-4 text-[#42B4EE] text-white"
+          className="mb-0 md:mb-4 text-white"
         />
       </section>
       <section className='w-[80%] md:w-auto'>
-        <h4 className="text-[#42B4EE] text-white text-center text-xl font-semibold mb-6">{title}</h4>
-        <p className='text-[#6b7280] text-white text-center'>{description}</p>
+        <h4 className="text-white text-center text-xl font-semibold mb-6">{title}</h4>
+        <p className='text-white text-center'>{description}</p>
       </section>
     </li>
   )

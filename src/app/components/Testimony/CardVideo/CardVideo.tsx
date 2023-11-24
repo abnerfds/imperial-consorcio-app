@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './cardVideo.scss'
 
 const CardVideo = ({ nameWitness, src, isSmallScreen }: { nameWitness: string, src: string, isSmallScreen: boolean }) => {

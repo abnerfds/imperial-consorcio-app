@@ -1,4 +1,3 @@
-import './whatIs.scss'
 
 const WhatIs = () => {
   return (

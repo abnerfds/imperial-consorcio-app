@@ -1,4 +1,3 @@
-import './reachUs.scss'
 import ContactUsForm from "./ContactUsForm/ContactUsForm"
 import OtherInfo from "./OtherInfo/OtherInfo"
 
