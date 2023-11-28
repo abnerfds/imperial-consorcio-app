@@ -27,7 +27,7 @@ const ContactUsForm = () => {
         <input
           type="hidden"
           name="_next"
-          value="https://imperialconsorcio.vercel.app/" />
+          value="https://imperialconsorcio.com/" />
         <button type='submit' className='btn-p  max-w-md lg:max-w-sm border-none text-lg'>
           Enviar
         </button>
