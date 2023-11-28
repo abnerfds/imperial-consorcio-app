@@ -69,7 +69,7 @@ const Footer = () => {
               alt='Logo Facebook'
             />
           </Link>
-          <Link href='https://wa.me/85996667562' target='_blank'>
+          <Link href='https://wa.me/5585996667562' target='_blank'>
             <Image
               src={whatsapp}
               alt={"Logo WhatsApp"}
