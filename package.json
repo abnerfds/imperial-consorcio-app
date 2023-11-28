@@ -15,6 +15,7 @@
     "react-dom": "^18",
     "react-social-media-embed": "^2.3.6",
     "sass": "^1.69.0",
+    "sharp": "^0.32.6",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
