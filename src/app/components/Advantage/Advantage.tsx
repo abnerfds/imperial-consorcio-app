@@ -21,7 +21,7 @@ const Advantage = () => {
       </section>
       <ul className="flex flex-wrap justify-center gap-4">
         <AdvantageCard
-          title="Melhor Taxa Administrativa"
+          title="Melhor Taxa Administrativa do Mercado"
           description="Nossa consultoria encontra a melhor opção para seu investimento ter a maior lucratividade!"
           src={checked}
           alt="Sinal de check."
