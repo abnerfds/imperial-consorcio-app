@@ -7,7 +7,6 @@ import checked from "@/assets/icons/check.svg";
 import unlock from "@/assets/icons/unlock.svg";
 import money from "@/assets/icons/money.svg";
 
-import './advantage.scss'
 
 
 const Advantage = () => {
